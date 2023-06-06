@@ -1,0 +1,131 @@
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(132, 250, 176, 0.5),
+    rgba(143, 211, 244, 0.5)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(132, 250, 176, 0.5),
+    rgba(143, 211, 244, 0.5)
+  );
+}
+
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(132, 250, 176, 1),
+    rgba(143, 211, 244, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(132, 250, 176, 1),
+    rgba(143, 211, 244, 1)
+  );
+}
+
+/* spinner */
+
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.455);
+  z-index: 10000;
+}
+
+.spinner-border {
+  color: white !important;
+  height: 80px !important;
+  width: 80px !important;
+}
+
+/* anchor */
+
+i {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+h1,
+p {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+/* text-sizes */
+
+.text-2xl {
+  font-size: 30px !important;
+}
+.text-xl {
+  font-size: 25px !important;
+}
+.text-lg {
+  font-size: 20px !important;
+}
+.text-md {
+  font-size: 18px !important;
+}
+
+.secondary-text {
+  color: var(--secondary) !important;
+}
+.primary-text {
+  color: var(--primary) !important;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.custom-text-color {
+  color: white !important;
+}
+
+/* buttons */
+
+.primary-btn {
+  background-color: var(--primary) !important;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.disabled-btn {
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: not-allowed;
+}
+
+.card {
+  border: 2px solid gray;
+  box-shadow: 0 0 1px rgb(189, 189, 189);
+  border-radius: 0 !important;
+}
+
+/* input */
+.ant-form-item {
+  margin: 0 !important;
+} 
